@@ -5,7 +5,7 @@ There are three main components:
 - mobile app in android studio
 - CS simulators in JavaScript
 
-Modules to download in node-red after you've imported in nodered flows.json file under the folder csms:
+Modules to download in node-red, after you've imported in node-red flows.json file under the folder csms:
 - npm install @gogovega/node-red-contrib-firebase-realtime-database
 - npm install node-red-dashboard
 - npm install node-red-contrib-aedes
