@@ -1,0 +1,2417 @@
+[
+    {
+        "id": "0d99714b72aed5b4",
+        "type": "tab",
+        "label": "CS_sqbf",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "68dd61eae5d94cda",
+        "type": "tab",
+        "label": "CS_xyzz",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "715f7fdc45e1b995",
+        "type": "tab",
+        "label": "CSMS",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "94c9d9f91daecc44",
+        "type": "group",
+        "z": "715f7fdc45e1b995",
+        "name": "POST REQUESTS FROM THE MOBILE APPLICATION",
+        "style": {
+            "label": true,
+            "fill": "#ffffbf",
+            "color": "#000000",
+            "fill-opacity": "0.5"
+        },
+        "nodes": [
+            "f1bc70ad809170e5",
+            "34a3a2d6ee140121",
+            "4821c18b8ea8306c",
+            "367b2bc364b55d40"
+        ],
+        "x": 14,
+        "y": 319,
+        "w": 592,
+        "h": 142
+    },
+    {
+        "id": "cd15dfa72f0c2774",
+        "type": "group",
+        "z": "715f7fdc45e1b995",
+        "name": "EVSES MAINTENANCE",
+        "style": {
+            "fill": "#bfdbef",
+            "fill-opacity": "0.5",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "fcfe917f8782a5de",
+            "2da3b67216249529",
+            "e28fd4a512ae0bf4"
+        ],
+        "x": 14,
+        "y": 699,
+        "w": 652,
+        "h": 142
+    },
+    {
+        "id": "352a2ce334adbf08",
+        "type": "group",
+        "z": "715f7fdc45e1b995",
+        "name": "SOME DB QUERY FOR MANUAL TESTING",
+        "style": {
+            "fill": "#bfdbef",
+            "fill-opacity": "0.52",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "e9eb72022e878890",
+            "d8d0d9ee19ecb0fb",
+            "400ca028d2dd45e6",
+            "e648710cb3ddbe16",
+            "96908c87246d3a20",
+            "25c9cfd67d59af62",
+            "9bbbeb7084b4c6e1",
+            "3aefbe78fbb1299b",
+            "9d623f1455f5bafc",
+            "39bfb2ae6ddd75ef"
+        ],
+        "x": 14,
+        "y": 39,
+        "w": 532,
+        "h": 242
+    },
+    {
+        "id": "d8418b5d9627335d",
+        "type": "group",
+        "z": "715f7fdc45e1b995",
+        "name": "LAST COMMAND FROM FIREBASE",
+        "style": {
+            "label": true,
+            "fill": "#ffC000",
+            "fill-opacity": "0.52",
+            "color": "#000000"
+        },
+        "nodes": [
+            "953b76d9f5da9896",
+            "58985a6d9a57a54f",
+            "b59ef437b96a308a"
+        ],
+        "x": 14,
+        "y": 499,
+        "w": 712,
+        "h": 162
+    },
+    {
+        "id": "8a96d67816d878c0",
+        "type": "group",
+        "z": "715f7fdc45e1b995",
+        "name": "MANAGE EVSES ANSWER",
+        "style": {
+            "fill": "#ffff3f",
+            "fill-opacity": "0.5",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "a75a117c246954f6",
+            "43a1e33476cf01ba",
+            "6d9805aaec15f3c1",
+            "0dbc96d4d8b15e33",
+            "77f771b07fb237d1",
+            "de7fe6dd9c07460c",
+            "a7c9ade5a3b6d763",
+            "86ce11401c2ebb86",
+            "8035b2e7fee31799",
+            "17932b13f61dee25",
+            "d9d3d30b5807c22c",
+            "a6944ecd1a440dac",
+            "280d7b29217fe1bd",
+            "3d6fadfc676a8dc6"
+        ],
+        "x": 14,
+        "y": 879,
+        "w": 952,
+        "h": 562
+    },
+    {
+        "id": "81f84efdd570b853",
+        "type": "group",
+        "z": "715f7fdc45e1b995",
+        "name": "MANAGE QUERY RESULT",
+        "style": {
+            "fill": "#ffC000",
+            "fill-opacity": "0.5",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "282d60263ad3f6b3",
+            "7044488c1be773e3",
+            "1994f85a45f3cc06",
+            "536b9b0a90ba3037",
+            "0e562d25dfdfb885",
+            "c17a527d81fd275e",
+            "fbf38cecdb84b4e6"
+        ],
+        "x": 1774,
+        "y": 279,
+        "w": 552,
+        "h": 282
+    },
+    {
+        "id": "740131d1d382c4e9",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "mqtt://localhost",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "388361d869c1684f",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#341881",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#341881",
+                    "edited": true
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#341881",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#4e24c1",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#341881",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "8803e6026a55de63",
+        "type": "ui_tab",
+        "name": "CS_sqbf",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false,
+        "info": "Bho"
+    },
+    {
+        "id": "08fbf00cc1167921",
+        "type": "ui_group",
+        "name": "evse0",
+        "tab": "8803e6026a55de63",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "8f0952be.200eb",
+        "type": "sqlitedb",
+        "db": "test.sqlite"
+    },
+    {
+        "id": "95d25fdf8fbee1ca",
+        "type": "sqlitedb",
+        "db": "/home/ale/Desktop/test.sqlite",
+        "mode": "RWC"
+    },
+    {
+        "id": "66498dbe99b7ab70",
+        "type": "ui_group",
+        "name": "evse1",
+        "tab": "8803e6026a55de63",
+        "order": 4,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "595f35343a519298",
+        "type": "sqlitedb",
+        "db": "C:\\Users\\39329\\Downloads\\test.sqlite",
+        "mode": "RWC"
+    },
+    {
+        "id": "33435de2f6f76fe4",
+        "type": "ui_group",
+        "name": "evse1",
+        "tab": "1c67b3a21c92efba",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "1c67b3a21c92efba",
+        "type": "ui_tab",
+        "name": "CS_xyzz",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "285890a7391f185c",
+        "type": "ui_group",
+        "name": "evse0",
+        "tab": "1c67b3a21c92efba",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "07a5833c4c747092",
+        "type": "ui_group",
+        "name": "evse2",
+        "tab": "1c67b3a21c92efba",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "afa645065f20cb5a",
+        "type": "ui_group",
+        "name": "evse3",
+        "tab": "1c67b3a21c92efba",
+        "order": 4,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "6616cfc28223f89f",
+        "type": "database-config",
+        "name": "My Database",
+        "authType": "privateKey",
+        "claims": {},
+        "createUser": false,
+        "useClaims": false
+    },
+    {
+        "id": "3e15b48d2f3b0a77",
+        "type": "ui_tab",
+        "name": "Other",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "c906e6e75182fd16",
+        "type": "ui_group",
+        "name": "Maintenance",
+        "tab": "3e15b48d2f3b0a77",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "354b8325887cc6ca",
+        "type": "ui_group",
+        "name": "Map",
+        "tab": "3e15b48d2f3b0a77",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "7aa5dc92117b5e2a",
+        "type": "ui_group",
+        "name": "EVSE_1",
+        "tab": "8803e6026a55de63",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "91b48b70d4391608",
+        "type": "ui_group",
+        "name": "EVSE_0",
+        "tab": "8803e6026a55de63",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "78b16aa96d58d502",
+        "type": "mqtt in",
+        "z": "0d99714b72aed5b4",
+        "name": "",
+        "topic": "/sqbf/answers",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "740131d1d382c4e9",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 90,
+        "y": 320,
+        "wires": [
+            [
+                "5576a00660ceac16",
+                "e47b3d774bbd72c7"
+            ]
+        ]
+    },
+    {
+        "id": "7bebfc59eaf59d80",
+        "type": "ui_gauge",
+        "z": "0d99714b72aed5b4",
+        "name": "",
+        "group": "08fbf00cc1167921",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "",
+        "label": "kWh",
+        "format": "{{msg.payload.energy}}",
+        "min": 0,
+        "max": 10,
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 790,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "2e088f6ca39e873d",
+        "type": "switch",
+        "z": "0d99714b72aed5b4",
+        "name": "evse switch",
+        "property": "payload.evse_id",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 570,
+        "y": 200,
+        "wires": [
+            [
+                "7bebfc59eaf59d80",
+                "8519da2c2b5856a9"
+            ],
+            [
+                "7557af694343c57c",
+                "1581dce521ebed1c"
+            ]
+        ]
+    },
+    {
+        "id": "8519da2c2b5856a9",
+        "type": "ui_text",
+        "z": "0d99714b72aed5b4",
+        "group": "08fbf00cc1167921",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Charging percentage:",
+        "format": "{{msg.payload.percentage}}",
+        "layout": "row-center",
+        "className": "",
+        "x": 840,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "7557af694343c57c",
+        "type": "ui_text",
+        "z": "0d99714b72aed5b4",
+        "group": "66498dbe99b7ab70",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Charging percentage:",
+        "format": "{{msg.payload.percentage}}",
+        "layout": "row-center",
+        "className": "",
+        "x": 840,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "1581dce521ebed1c",
+        "type": "ui_gauge",
+        "z": "0d99714b72aed5b4",
+        "name": "",
+        "group": "66498dbe99b7ab70",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "",
+        "label": "kWh",
+        "format": "{{msg.payload.energy}}",
+        "min": 0,
+        "max": 10,
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 790,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "4c1ef2e77f544fb6",
+        "type": "ui_text",
+        "z": "0d99714b72aed5b4",
+        "group": "08fbf00cc1167921",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Status: ",
+        "format": "{{msg.payload.status}}",
+        "layout": "row-center",
+        "className": "",
+        "x": 840,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "5b0f38804fe403a7",
+        "type": "ui_text",
+        "z": "0d99714b72aed5b4",
+        "group": "66498dbe99b7ab70",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Status: ",
+        "format": "{{msg.payload.status}}",
+        "layout": "row-center",
+        "className": "",
+        "x": 840,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "5576a00660ceac16",
+        "type": "switch",
+        "z": "0d99714b72aed5b4",
+        "name": "answer type",
+        "property": "payload.type",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "metric",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "status",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 310,
+        "y": 320,
+        "wires": [
+            [
+                "2e088f6ca39e873d"
+            ],
+            [
+                "77318c15ec3d81e3"
+            ]
+        ]
+    },
+    {
+        "id": "77318c15ec3d81e3",
+        "type": "switch",
+        "z": "0d99714b72aed5b4",
+        "name": "evse switch",
+        "property": "payload.evse_id",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 570,
+        "y": 500,
+        "wires": [
+            [
+                "4c1ef2e77f544fb6"
+            ],
+            [
+                "5b0f38804fe403a7"
+            ]
+        ]
+    },
+    {
+        "id": "af9dc28d4d2e41bc",
+        "type": "inject",
+        "z": "0d99714b72aed5b4",
+        "name": "add info about the cs in the db",
+        "props": [
+            {
+                "p": "payload.command",
+                "v": "info",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "5",
+        "topic": "",
+        "x": 170,
+        "y": 620,
+        "wires": [
+            [
+                "6a7703dbab493173"
+            ]
+        ]
+    },
+    {
+        "id": "6a7703dbab493173",
+        "type": "mqtt out",
+        "z": "0d99714b72aed5b4",
+        "name": "",
+        "topic": "/sqbf/commands",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "740131d1d382c4e9",
+        "x": 600,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "5faa4373690373eb",
+        "type": "ui_text",
+        "z": "0d99714b72aed5b4",
+        "group": "08fbf00cc1167921",
+        "order": 1,
+        "width": "0",
+        "height": "0",
+        "name": "",
+        "label": "Evse Code: ",
+        "format": "fjd",
+        "layout": "row-center",
+        "className": "",
+        "x": 1030,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "d877fc9e36af10d8",
+        "type": "ui_text",
+        "z": "0d99714b72aed5b4",
+        "group": "66498dbe99b7ab70",
+        "order": 1,
+        "width": "0",
+        "height": "0",
+        "name": "",
+        "label": "Evse Code: ",
+        "format": "kkk",
+        "layout": "row-center",
+        "className": "",
+        "x": 1030,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "e47b3d774bbd72c7",
+        "type": "link out",
+        "z": "0d99714b72aed5b4",
+        "name": "send to csms",
+        "mode": "link",
+        "links": [
+            "17932b13f61dee25"
+        ],
+        "x": 255,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "fd9a4d8c97bcd5e5",
+        "type": "mqtt in",
+        "z": "68dd61eae5d94cda",
+        "name": "",
+        "topic": "/xyzz/answers",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "740131d1d382c4e9",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 90,
+        "y": 320,
+        "wires": [
+            [
+                "b10903a506ea900b",
+                "826ca2fcda2f42f6"
+            ]
+        ]
+    },
+    {
+        "id": "eee7f0ad8d807e50",
+        "type": "ui_gauge",
+        "z": "68dd61eae5d94cda",
+        "name": "",
+        "group": "285890a7391f185c",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "",
+        "label": "kWh",
+        "format": "{{msg.payload.energy}}",
+        "min": 0,
+        "max": 10,
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 930,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "820b5d689a13317d",
+        "type": "switch",
+        "z": "68dd61eae5d94cda",
+        "name": "evse switch",
+        "property": "payload.evse_id",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "2",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "3",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 4,
+        "x": 710,
+        "y": 80,
+        "wires": [
+            [
+                "eee7f0ad8d807e50",
+                "17b3584a771a3a14"
+            ],
+            [
+                "41e9b96f03e2e333",
+                "09ae8cbdd8312b61"
+            ],
+            [
+                "d7629cd3036a07db",
+                "5a95fe040a255093"
+            ],
+            [
+                "09838e5d06bbf505",
+                "4b1e957b6e591cdf"
+            ]
+        ]
+    },
+    {
+        "id": "17b3584a771a3a14",
+        "type": "ui_text",
+        "z": "68dd61eae5d94cda",
+        "group": "285890a7391f185c",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Charging percentage:",
+        "format": "{{msg.payload.percentage}}",
+        "layout": "row-center",
+        "className": "",
+        "x": 980,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "41e9b96f03e2e333",
+        "type": "ui_text",
+        "z": "68dd61eae5d94cda",
+        "group": "33435de2f6f76fe4",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Charging percentage:",
+        "format": "{{msg.payload.percentage}}",
+        "layout": "row-center",
+        "className": "",
+        "x": 980,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "09ae8cbdd8312b61",
+        "type": "ui_gauge",
+        "z": "68dd61eae5d94cda",
+        "name": "",
+        "group": "33435de2f6f76fe4",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "",
+        "label": "kWh",
+        "format": "{{msg.payload.energy}}",
+        "min": 0,
+        "max": 10,
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 930,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "7e928e6fbd7ffaf6",
+        "type": "ui_text",
+        "z": "68dd61eae5d94cda",
+        "group": "285890a7391f185c",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Status: ",
+        "format": "{{msg.payload.status}}",
+        "layout": "row-center",
+        "className": "",
+        "x": 940,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "2534665514561cf5",
+        "type": "ui_text",
+        "z": "68dd61eae5d94cda",
+        "group": "33435de2f6f76fe4",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Status: ",
+        "format": "{{msg.payload.status}}",
+        "layout": "row-center",
+        "className": "",
+        "x": 940,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "826ca2fcda2f42f6",
+        "type": "switch",
+        "z": "68dd61eae5d94cda",
+        "name": "answer type",
+        "property": "payload.type",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "metric",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "status",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 350,
+        "y": 320,
+        "wires": [
+            [
+                "820b5d689a13317d"
+            ],
+            [
+                "b1b3acd13bb04558"
+            ]
+        ]
+    },
+    {
+        "id": "b1b3acd13bb04558",
+        "type": "switch",
+        "z": "68dd61eae5d94cda",
+        "name": "evse switch",
+        "property": "payload.evse_id",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "2",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "3",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 4,
+        "x": 710,
+        "y": 440,
+        "wires": [
+            [
+                "7e928e6fbd7ffaf6"
+            ],
+            [
+                "2534665514561cf5"
+            ],
+            [
+                "40ecb4f5d676f4f9"
+            ],
+            [
+                "b61f3505f88f24d3"
+            ]
+        ]
+    },
+    {
+        "id": "d7629cd3036a07db",
+        "type": "ui_gauge",
+        "z": "68dd61eae5d94cda",
+        "name": "",
+        "group": "07a5833c4c747092",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "",
+        "label": "kWh",
+        "format": "{{msg.payload.energy}}",
+        "min": 0,
+        "max": 10,
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 930,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "5a95fe040a255093",
+        "type": "ui_text",
+        "z": "68dd61eae5d94cda",
+        "group": "07a5833c4c747092",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Charging percentage:",
+        "format": "{{msg.payload.percentage}}",
+        "layout": "row-center",
+        "className": "",
+        "x": 980,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "09838e5d06bbf505",
+        "type": "ui_gauge",
+        "z": "68dd61eae5d94cda",
+        "name": "",
+        "group": "afa645065f20cb5a",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "",
+        "label": "kWh",
+        "format": "{{msg.payload.energy}}",
+        "min": 0,
+        "max": 10,
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 930,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "4b1e957b6e591cdf",
+        "type": "ui_text",
+        "z": "68dd61eae5d94cda",
+        "group": "afa645065f20cb5a",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Charging percentage:",
+        "format": "{{msg.payload.percentage}}",
+        "layout": "row-center",
+        "className": "",
+        "x": 980,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "40ecb4f5d676f4f9",
+        "type": "ui_text",
+        "z": "68dd61eae5d94cda",
+        "group": "07a5833c4c747092",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Status: ",
+        "format": "{{msg.payload.status}}",
+        "layout": "row-center",
+        "className": "",
+        "x": 940,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "b61f3505f88f24d3",
+        "type": "ui_text",
+        "z": "68dd61eae5d94cda",
+        "group": "afa645065f20cb5a",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Status: ",
+        "format": "{{msg.payload.status}}",
+        "layout": "row-center",
+        "className": "",
+        "x": 940,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "6cc9f3695457f6ed",
+        "type": "inject",
+        "z": "68dd61eae5d94cda",
+        "name": "add info about the cs in the db",
+        "props": [
+            {
+                "p": "payload.command",
+                "v": "info",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "5",
+        "topic": "",
+        "x": 170,
+        "y": 580,
+        "wires": [
+            [
+                "de8e7593e674794e"
+            ]
+        ]
+    },
+    {
+        "id": "de8e7593e674794e",
+        "type": "mqtt out",
+        "z": "68dd61eae5d94cda",
+        "name": "",
+        "topic": "/xyzz/commands",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "740131d1d382c4e9",
+        "x": 490,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "aaa8b6f2fc283655",
+        "type": "ui_text",
+        "z": "68dd61eae5d94cda",
+        "group": "285890a7391f185c",
+        "order": 1,
+        "width": "0",
+        "height": "0",
+        "name": "",
+        "label": "Evse Code: ",
+        "format": "aaa",
+        "layout": "row-center",
+        "className": "",
+        "x": 1170,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "f83de72ed3b9eff7",
+        "type": "ui_text",
+        "z": "68dd61eae5d94cda",
+        "group": "33435de2f6f76fe4",
+        "order": 1,
+        "width": "0",
+        "height": "0",
+        "name": "",
+        "label": "Evse Code: ",
+        "format": "aab",
+        "layout": "row-center",
+        "className": "",
+        "x": 1170,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "daf7d53b47745e31",
+        "type": "ui_text",
+        "z": "68dd61eae5d94cda",
+        "group": "07a5833c4c747092",
+        "order": 1,
+        "width": "0",
+        "height": "0",
+        "name": "",
+        "label": "Evse Code: ",
+        "format": "aac",
+        "layout": "row-center",
+        "className": "",
+        "x": 1170,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "2b6467872ea1cbb9",
+        "type": "ui_text",
+        "z": "68dd61eae5d94cda",
+        "group": "afa645065f20cb5a",
+        "order": 1,
+        "width": "0",
+        "height": "0",
+        "name": "",
+        "label": "Evse Code: ",
+        "format": "aad",
+        "layout": "row-center",
+        "className": "",
+        "x": 1170,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "b10903a506ea900b",
+        "type": "link out",
+        "z": "68dd61eae5d94cda",
+        "name": "send to csms",
+        "mode": "link",
+        "links": [
+            "17932b13f61dee25"
+        ],
+        "x": 295,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "a75a117c246954f6",
+        "type": "function",
+        "z": "715f7fdc45e1b995",
+        "g": "8a96d67816d878c0",
+        "name": "extract payload",
+        "func": "msg.payload = msg.payload.payload;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 1380,
+        "wires": [
+            [
+                "6d9805aaec15f3c1"
+            ]
+        ]
+    },
+    {
+        "id": "e9eb72022e878890",
+        "type": "inject",
+        "z": "715f7fdc45e1b995",
+        "g": "352a2ce334adbf08",
+        "name": "Go",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 110,
+        "y": 160,
+        "wires": [
+            [
+                "d8d0d9ee19ecb0fb"
+            ]
+        ]
+    },
+    {
+        "id": "d8d0d9ee19ecb0fb",
+        "type": "function",
+        "z": "715f7fdc45e1b995",
+        "g": "352a2ce334adbf08",
+        "name": "LIST TABLES",
+        "func": "msg.topic = `\nSELECT name FROM sqlite_master WHERE type='table' ORDER BY name;\n`;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 420,
+        "y": 160,
+        "wires": [
+            [
+                "c4ba5b1c7ce575d0"
+            ]
+        ]
+    },
+    {
+        "id": "400ca028d2dd45e6",
+        "type": "function",
+        "z": "715f7fdc45e1b995",
+        "g": "352a2ce334adbf08",
+        "name": "ADD TABLES",
+        "func": "msg.topic = `\nCREATE TABLE CS (\n    id TEXT PRIMARY KEY,\n    lat REAL NOT NULL,\n    lon REAL NOT NULL,\n    position_name TEXT NOT NULL\n);\n`\nnode.send(msg);\n\nmsg.topic = `\nCREATE TABLE EVSE (\n    id_code TEXT PRIMARY KEY,\n    id INTEGER NOT NULL,\n    CS_ INTEGER NOT NULL,\n    FOREIGN KEY (CS_) REFERENCES CS(id)\n);\n`\nnode.send(msg);\n\nmsg.topic = `\nCREATE TABLE CON(\n    id INTEGER NOT NULL,\n    type TEXT NOT NULL,\n    cur_type TEXT NOT NULL,\n    max_power REAL NOT NULL,\n    EVSE_ TEXT NOT NULL,\n    PRIMARY KEY(id, EVSE_),\n    FOREIGN KEY(EVSE_) REFERENCES EVSE(id_code)\n);\n`\nnode.send(msg);\n\nmsg.topic = `\nCREATE TABLE METRIC(\n    CS_id TEXT,\n    evse_id TEXT,\n    percentage REAL,\n    energy REAL,\n    Timestamp DATETIME DEFAULT CURRENT_TIMESTAMP\n);\n`\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 420,
+        "y": 80,
+        "wires": [
+            [
+                "c4ba5b1c7ce575d0"
+            ]
+        ]
+    },
+    {
+        "id": "e648710cb3ddbe16",
+        "type": "inject",
+        "z": "715f7fdc45e1b995",
+        "g": "352a2ce334adbf08",
+        "name": "Go",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "2",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 110,
+        "y": 80,
+        "wires": [
+            [
+                "400ca028d2dd45e6"
+            ]
+        ]
+    },
+    {
+        "id": "43a1e33476cf01ba",
+        "type": "function",
+        "z": "715f7fdc45e1b995",
+        "g": "8a96d67816d878c0",
+        "name": "insert info",
+        "func": "let cs = msg.payload;\n\n// add the cs in the database\nmsg.topic = `INSERT INTO CS (id, lat, lon, position_name) VALUES (\\\"${cs['id']}\\\", ${cs['gps_position']['lat']}, ${cs['gps_position']['lon']}, \\\"${cs['name_position']}\\\");`;\nnode.send(msg);\n\n\nlet evses = cs['evses'];\n\n// for each evse add it in the database\nfor (let i = 0; i < evses.length; i++) {\n    let evse = evses[i];\n    msg.topic = `\n        INSERT INTO EVSE (id_code, id, CS_) VALUES (\\\"${evse['id_code']}\\\", ${evse['id']}, \\\"${cs['id']}\\\");\n    `\n    node.send(msg);\n    let connectors = evse['connectors'];\n    // for each connector of the current evse add it in the database\n    for (let j = 0; j < connectors.length; j++) {\n        let connector = connectors[j];\n        msg.topic = `\n            INSERT INTO CON (id, type, cur_type, max_power, EVSE_) VALUES (${connector['id']}, \\\"${connector['type']}\\\", \\\"${connector['cur_type']}\\\", ${connector['max_power']}, \\\"${evse['id_code']}\\\");\n        `\n        console.log(msg);\n        node.send(msg);\n    }\n\n}\n\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 800,
+        "y": 1340,
+        "wires": [
+            [
+                "c4ba5b1c7ce575d0"
+            ]
+        ]
+    },
+    {
+        "id": "6d9805aaec15f3c1",
+        "type": "json",
+        "z": "715f7fdc45e1b995",
+        "g": "8a96d67816d878c0",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 610,
+        "y": 1380,
+        "wires": [
+            [
+                "43a1e33476cf01ba",
+                "77f771b07fb237d1"
+            ]
+        ]
+    },
+    {
+        "id": "c4ba5b1c7ce575d0",
+        "type": "sqlite",
+        "z": "715f7fdc45e1b995",
+        "mydb": "595f35343a519298",
+        "sqlquery": "msg.topic",
+        "sql": "",
+        "name": "",
+        "x": 1310,
+        "y": 360,
+        "wires": [
+            [
+                "511f5de95c1139da",
+                "942d81ddd0a33665"
+            ]
+        ]
+    },
+    {
+        "id": "96908c87246d3a20",
+        "type": "inject",
+        "z": "715f7fdc45e1b995",
+        "g": "352a2ce334adbf08",
+        "name": "Go",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 110,
+        "y": 120,
+        "wires": [
+            [
+                "25c9cfd67d59af62"
+            ]
+        ]
+    },
+    {
+        "id": "25c9cfd67d59af62",
+        "type": "function",
+        "z": "715f7fdc45e1b995",
+        "g": "352a2ce334adbf08",
+        "name": "DELETE TABLES",
+        "func": "msg.topic = \"DROP TABLE IF EXISTS CS\";\nnode.send(msg);\n\nmsg.topic = \"DROP TABLE IF EXISTS EVSE\";\nnode.send(msg);\n\nmsg.topic = \"DROP TABLE IF EXISTS CON\";\nnode.send(msg);\n\nmsg.topic = \"DROP TABLE IF EXISTS METRIC\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 120,
+        "wires": [
+            [
+                "c4ba5b1c7ce575d0"
+            ]
+        ]
+    },
+    {
+        "id": "9bbbeb7084b4c6e1",
+        "type": "function",
+        "z": "715f7fdc45e1b995",
+        "g": "352a2ce334adbf08",
+        "name": "SELECT * FROM ?",
+        "func": "/*\nmsg.topic = `select * from ${msg.payload.from};`\nreturn msg;\n*/\nmsg.topic = `\nSELECT *\nFROM EVSE\n`\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 200,
+        "wires": [
+            [
+                "c4ba5b1c7ce575d0"
+            ]
+        ]
+    },
+    {
+        "id": "3aefbe78fbb1299b",
+        "type": "inject",
+        "z": "715f7fdc45e1b995",
+        "g": "352a2ce334adbf08",
+        "name": "Go with cs | evse | con | metric",
+        "props": [
+            {
+                "p": "payload.from",
+                "v": "cs",
+                "vt": "str"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 180,
+        "y": 200,
+        "wires": [
+            [
+                "9bbbeb7084b4c6e1"
+            ]
+        ]
+    },
+    {
+        "id": "0dbc96d4d8b15e33",
+        "type": "function",
+        "z": "715f7fdc45e1b995",
+        "g": "8a96d67816d878c0",
+        "name": "insert metric",
+        "func": "let sample = msg.payload;\nmsg.topic = `\nINSERT INTO METRIC (CS_id, evse_id, percentage, energy) VALUES (\\\"${sample['cs_id']}\\\", ${sample['evse_id']}, ${sample['percentage']}, \\\"${sample['energy']}\\\");\n`\nnode.send(msg);\n\n\n\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 920,
+        "wires": [
+            [
+                "c4ba5b1c7ce575d0"
+            ]
+        ]
+    },
+    {
+        "id": "511f5de95c1139da",
+        "type": "switch",
+        "z": "715f7fdc45e1b995",
+        "name": "",
+        "property": "query_type",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "search_evses",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "check_evse_code",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "last_command",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "maintenance",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "remove_maintenance",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "map",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 6,
+        "x": 1570,
+        "y": 360,
+        "wires": [
+            [
+                "282d60263ad3f6b3"
+            ],
+            [
+                "7044488c1be773e3"
+            ],
+            [
+                "1994f85a45f3cc06"
+            ],
+            [
+                "1994f85a45f3cc06"
+            ],
+            [
+                "1994f85a45f3cc06"
+            ],
+            [
+                "fbf38cecdb84b4e6"
+            ]
+        ]
+    },
+    {
+        "id": "282d60263ad3f6b3",
+        "type": "http response",
+        "z": "715f7fdc45e1b995",
+        "g": "81f84efdd570b853",
+        "name": "",
+        "statusCode": "",
+        "headers": {
+            "content-type": "text/plain"
+        },
+        "x": 2090,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "7044488c1be773e3",
+        "type": "function",
+        "z": "715f7fdc45e1b995",
+        "g": "81f84efdd570b853",
+        "name": "is a valid evse code?",
+        "func": "if (msg.payload.length === 1)\n    msg.payload = 1;\nelse\n    msg.payload = 0;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1900,
+        "y": 380,
+        "wires": [
+            [
+                "282d60263ad3f6b3"
+            ]
+        ]
+    },
+    {
+        "id": "942d81ddd0a33665",
+        "type": "debug",
+        "z": "715f7fdc45e1b995",
+        "name": "sqlitedb response",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1610,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "77f771b07fb237d1",
+        "type": "function",
+        "z": "715f7fdc45e1b995",
+        "g": "8a96d67816d878c0",
+        "name": "send info to firebase",
+        "func": "let evses = msg.payload['evses'];\n\nfor (let i = 0; i < evses.length; i++) {\n    let evse = evses[i];\n    msg.topic = evse['id_code'];\n    msg.payload = {\"status\":\"free\", \"value\":\"-1\"};\n    node.send(msg);\n}\n\nmsg.topic = \"last_command\";\nmsg.payload = {\"evse_code\":\"none\", \"command\":\"none\"};\nreturn msg;\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 840,
+        "y": 1400,
+        "wires": [
+            [
+                "54dabd11450829f5"
+            ]
+        ]
+    },
+    {
+        "id": "953b76d9f5da9896",
+        "type": "firebase-in",
+        "z": "715f7fdc45e1b995",
+        "g": "d8418b5d9627335d",
+        "name": "",
+        "constraint": {},
+        "database": "6616cfc28223f89f",
+        "listenerType": "value",
+        "outputType": "auto",
+        "path": "/last_command",
+        "useConstraint": false,
+        "x": 120,
+        "y": 540,
+        "wires": [
+            [
+                "58985a6d9a57a54f",
+                "b59ef437b96a308a"
+            ]
+        ]
+    },
+    {
+        "id": "1994f85a45f3cc06",
+        "type": "function",
+        "z": "715f7fdc45e1b995",
+        "g": "81f84efdd570b853",
+        "name": "build mqtt topic",
+        "func": "// il cs lo prenderai dal db\nif (msg.payload.length == 1){\n    let info = msg.payload[0];\n    msg.topic = \"/\" + info['cs_id'] + \"/commands\";\n    msg.payload = {\"command\": msg.command, \"evse\": info['evse_id']};\n    return msg;\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1880,
+        "y": 460,
+        "wires": [
+            [
+                "0e562d25dfdfb885"
+            ]
+        ]
+    },
+    {
+        "id": "536b9b0a90ba3037",
+        "type": "mqtt out",
+        "z": "715f7fdc45e1b995",
+        "g": "81f84efdd570b853",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "740131d1d382c4e9",
+        "x": 2250,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "58985a6d9a57a54f",
+        "type": "function",
+        "z": "715f7fdc45e1b995",
+        "g": "d8418b5d9627335d",
+        "name": "get cs and evse_id from evse_code",
+        "func": "msg.query_type = \"last_command\";\nmsg.command = msg.payload.command;\nlet evse_code = msg.payload.evse_code;\nmsg.topic = `\nSELECT EVSE.id as evse_id, CS.id as cs_id\nFROM EVSE\nJOIN CS ON EVSE.CS_ = CS.id\nWHERE EVSE.id_code = \"${evse_code}\";\n`;\nreturn msg;\n\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 560,
+        "y": 540,
+        "wires": [
+            [
+                "c4ba5b1c7ce575d0"
+            ]
+        ]
+    },
+    {
+        "id": "b59ef437b96a308a",
+        "type": "debug",
+        "z": "715f7fdc45e1b995",
+        "g": "d8418b5d9627335d",
+        "name": "debug 60",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 312,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "de7fe6dd9c07460c",
+        "type": "function",
+        "z": "715f7fdc45e1b995",
+        "g": "8a96d67816d878c0",
+        "name": "add counter value",
+        "func": "msg.topic = msg.payload.evse_code+\"/value\";\nmsg.payload = msg.payload.counter;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 450,
+        "y": 1080,
+        "wires": [
+            [
+                "54dabd11450829f5"
+            ]
+        ]
+    },
+    {
+        "id": "a7c9ade5a3b6d763",
+        "type": "function",
+        "z": "715f7fdc45e1b995",
+        "g": "8a96d67816d878c0",
+        "name": "add percentage value",
+        "func": "msg.topic = msg.payload.evse_code + \"/value\";\nmsg.payload = msg.payload.percentage;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 460,
+        "y": 1000,
+        "wires": [
+            [
+                "54dabd11450829f5"
+            ]
+        ]
+    },
+    {
+        "id": "0e562d25dfdfb885",
+        "type": "switch",
+        "z": "715f7fdc45e1b995",
+        "g": "81f84efdd570b853",
+        "name": "",
+        "property": "payload.command",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "neq",
+                "v": "none",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 2110,
+        "y": 460,
+        "wires": [
+            [
+                "536b9b0a90ba3037"
+            ]
+        ]
+    },
+    {
+        "id": "c17a527d81fd275e",
+        "type": "ui_worldmap",
+        "z": "715f7fdc45e1b995",
+        "g": "81f84efdd570b853",
+        "group": "354b8325887cc6ca",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "lat": "44.4044797",
+        "lon": "8.9677295",
+        "zoom": "15",
+        "layer": "OSMG",
+        "cluster": "",
+        "maxage": "",
+        "usermenu": "hide",
+        "layers": "hide",
+        "panit": "false",
+        "panlock": "false",
+        "zoomlock": "false",
+        "hiderightclick": "true",
+        "coords": "none",
+        "showgrid": "false",
+        "showruler": "false",
+        "allowFileDrop": "false",
+        "path": "/worldmap",
+        "overlist": "DR,CO,RA,DN,HM",
+        "maplist": "OSMG,OSMC,EsriC,EsriS,EsriT,EsriDG,UKOS",
+        "mapname": "",
+        "mapurl": "",
+        "mapopt": "",
+        "mapwms": false,
+        "x": 2120,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "2d42c4b74e872e99",
+        "type": "aedes broker",
+        "z": "715f7fdc45e1b995",
+        "name": "MQTT BROKER",
+        "mqtt_port": 1883,
+        "mqtt_ws_bind": "port",
+        "mqtt_ws_port": "",
+        "mqtt_ws_path": "",
+        "cert": "",
+        "key": "",
+        "certname": "",
+        "keyname": "",
+        "dburl": "",
+        "usetls": false,
+        "x": 1240,
+        "y": 420,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "fcfe917f8782a5de",
+        "type": "ui_text_input",
+        "z": "715f7fdc45e1b995",
+        "g": "cd15dfa72f0c2774",
+        "name": "",
+        "label": "Add maintenance to",
+        "tooltip": "Insert an evse code",
+        "group": "c906e6e75182fd16",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "text",
+        "delay": "0",
+        "topic": "maintenance",
+        "sendOnBlur": false,
+        "className": "",
+        "topicType": "str",
+        "x": 140,
+        "y": 740,
+        "wires": [
+            [
+                "e28fd4a512ae0bf4"
+            ]
+        ]
+    },
+    {
+        "id": "2da3b67216249529",
+        "type": "ui_text_input",
+        "z": "715f7fdc45e1b995",
+        "g": "cd15dfa72f0c2774",
+        "name": "",
+        "label": "Remove maintenance from",
+        "tooltip": "Insert an evse code",
+        "group": "c906e6e75182fd16",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "text",
+        "delay": "0",
+        "topic": "remove_maintenance",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 160,
+        "y": 800,
+        "wires": [
+            [
+                "e28fd4a512ae0bf4"
+            ]
+        ]
+    },
+    {
+        "id": "54dabd11450829f5",
+        "type": "firebase-out",
+        "z": "715f7fdc45e1b995",
+        "name": "",
+        "database": "6616cfc28223f89f",
+        "path": "topic",
+        "pathType": "msg",
+        "priority": 1,
+        "queryType": "set",
+        "x": 1070,
+        "y": 1120,
+        "wires": []
+    },
+    {
+        "id": "86ce11401c2ebb86",
+        "type": "function",
+        "z": "715f7fdc45e1b995",
+        "g": "8a96d67816d878c0",
+        "name": "activate maintainance",
+        "func": "let payload = msg.payload;\nmsg.topic = payload.evse_code + \"/value\";\nmsg.payload = -42;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 640,
+        "y": 1220,
+        "wires": [
+            [
+                "54dabd11450829f5"
+            ]
+        ]
+    },
+    {
+        "id": "8035b2e7fee31799",
+        "type": "function",
+        "z": "715f7fdc45e1b995",
+        "g": "8a96d67816d878c0",
+        "name": "free the evse",
+        "func": "let payload = msg.payload;\nmsg.topic = payload.evse_code + \"/value\";\nmsg.payload = -1;\nnode.send(msg);\nmsg.topic = payload.evse_code + \"/status\";\nmsg.payload = \"free\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 1140,
+        "wires": [
+            [
+                "54dabd11450829f5"
+            ]
+        ]
+    },
+    {
+        "id": "e28fd4a512ae0bf4",
+        "type": "function",
+        "z": "715f7fdc45e1b995",
+        "g": "cd15dfa72f0c2774",
+        "name": "get cs and evse_id from evse_code",
+        "func": "msg.query_type = msg.topic;\nmsg.command = msg.topic;\nlet evse_code = msg.payload;\nmsg.topic = `\nSELECT EVSE.id as evse_id, CS.id as cs_id\nFROM EVSE\nJOIN CS ON EVSE.CS_ = CS.id\nWHERE EVSE.id_code = \"${evse_code}\";\n`;\nreturn msg;\n\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 760,
+        "wires": [
+            [
+                "c4ba5b1c7ce575d0"
+            ]
+        ]
+    },
+    {
+        "id": "9d623f1455f5bafc",
+        "type": "inject",
+        "z": "715f7fdc45e1b995",
+        "g": "352a2ce334adbf08",
+        "name": "Go",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 110,
+        "y": 240,
+        "wires": [
+            [
+                "39bfb2ae6ddd75ef"
+            ]
+        ]
+    },
+    {
+        "id": "39bfb2ae6ddd75ef",
+        "type": "function",
+        "z": "715f7fdc45e1b995",
+        "g": "352a2ce334adbf08",
+        "name": "SHOW METRICS",
+        "func": "msg.topic = `\nSELECT *\nFROM METRIC\n`\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 240,
+        "wires": [
+            [
+                "c4ba5b1c7ce575d0"
+            ]
+        ]
+    },
+    {
+        "id": "f1bc70ad809170e5",
+        "type": "http in",
+        "z": "715f7fdc45e1b995",
+        "g": "94c9d9f91daecc44",
+        "name": "",
+        "url": "search",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 110,
+        "y": 360,
+        "wires": [
+            [
+                "34a3a2d6ee140121"
+            ]
+        ]
+    },
+    {
+        "id": "34a3a2d6ee140121",
+        "type": "function",
+        "z": "715f7fdc45e1b995",
+        "g": "94c9d9f91daecc44",
+        "name": "SEARCH QUERY",
+        "func": "let type = msg.req.body.type;\nlet cur_type = msg.req.body.cur_type;\nlet lat = msg.req.body.lat;\nlet lon = msg.req.body.lon;\n\nmsg.query_type = \"search_evses\";\n\nmsg.topic = `\nSELECT CS.id as cs_id, EVSE.id as evse_id, position_name,\n    ROUND((6371 * acos(cos(radians(${lat})) * cos(radians(CS.lat)) * cos(radians(CS.lon) - radians(${lon})) + sin(radians(${lat})) * sin(radians(CS.lat)))), 3) AS distance_km\nFROM CS\nJOIN EVSE ON CS.id = EVSE.CS_\nJOIN CON ON EVSE.id_code = CON.EVSE_\nWHERE type='${type}' AND cur_type='${cur_type}'\nORDER BY distance_km;\n`;\n\nreturn msg;\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 310,
+        "y": 360,
+        "wires": [
+            [
+                "c4ba5b1c7ce575d0"
+            ]
+        ]
+    },
+    {
+        "id": "4821c18b8ea8306c",
+        "type": "http in",
+        "z": "715f7fdc45e1b995",
+        "g": "94c9d9f91daecc44",
+        "name": "",
+        "url": "/check_evse_code",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 150,
+        "y": 420,
+        "wires": [
+            [
+                "367b2bc364b55d40"
+            ]
+        ]
+    },
+    {
+        "id": "367b2bc364b55d40",
+        "type": "function",
+        "z": "715f7fdc45e1b995",
+        "g": "94c9d9f91daecc44",
+        "name": "CHECK EVSE CODE QUERY",
+        "func": "msg.query_type = \"check_evse_code\";\n\nlet evse_code = msg.req.body.evse_code;\n\nmsg.topic = `\nSELECT * FROM EVSE\nWHERE id_code=\\\"${evse_code}\\\";\n`;\n\n\nreturn msg;\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 450,
+        "y": 420,
+        "wires": [
+            [
+                "c4ba5b1c7ce575d0"
+            ]
+        ]
+    },
+    {
+        "id": "17932b13f61dee25",
+        "type": "link in",
+        "z": "715f7fdc45e1b995",
+        "g": "8a96d67816d878c0",
+        "name": "receive from evses",
+        "links": [
+            "b10903a506ea900b",
+            "e47b3d774bbd72c7"
+        ],
+        "x": 55,
+        "y": 1200,
+        "wires": [
+            [
+                "d9d3d30b5807c22c"
+            ]
+        ]
+    },
+    {
+        "id": "d9d3d30b5807c22c",
+        "type": "switch",
+        "z": "715f7fdc45e1b995",
+        "g": "8a96d67816d878c0",
+        "name": "answer type",
+        "property": "payload.type",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "metric",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "counter",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "status",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "info",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 4,
+        "x": 200,
+        "y": 1200,
+        "wires": [
+            [
+                "0dbc96d4d8b15e33",
+                "a7c9ade5a3b6d763"
+            ],
+            [
+                "de7fe6dd9c07460c"
+            ],
+            [
+                "a6944ecd1a440dac",
+                "3d6fadfc676a8dc6"
+            ],
+            [
+                "a75a117c246954f6"
+            ]
+        ]
+    },
+    {
+        "id": "a6944ecd1a440dac",
+        "type": "switch",
+        "z": "715f7fdc45e1b995",
+        "g": "8a96d67816d878c0",
+        "name": "status",
+        "property": "payload.status",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "free",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "maintenance",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 410,
+        "y": 1180,
+        "wires": [
+            [
+                "8035b2e7fee31799"
+            ],
+            [
+                "86ce11401c2ebb86"
+            ]
+        ]
+    },
+    {
+        "id": "fbf38cecdb84b4e6",
+        "type": "function",
+        "z": "715f7fdc45e1b995",
+        "g": "81f84efdd570b853",
+        "name": "add coordinates",
+        "func": "let cs_array = msg.payload;\n\n// for each evse add it in the database\nfor (let i = 0; i < cs_array.length; i++) {\n    let cs = cs_array[i];\n    msg.payload = { \"name\": cs.id, \"lat\": cs.lat, \"lon\": cs.lon };\n    node.send(msg);\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1880,
+        "y": 520,
+        "wires": [
+            [
+                "c17a527d81fd275e"
+            ]
+        ]
+    },
+    {
+        "id": "d60f7ba073e8abcf",
+        "type": "inject",
+        "z": "715f7fdc45e1b995",
+        "name": "insert map marker",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "query_type",
+                "v": "map",
+                "vt": "str"
+            }
+        ],
+        "repeat": "30",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "SELECT * FROM CS",
+        "x": 990,
+        "y": 180,
+        "wires": [
+            [
+                "c4ba5b1c7ce575d0"
+            ]
+        ]
+    },
+    {
+        "id": "280d7b29217fe1bd",
+        "type": "ui_toast",
+        "z": "715f7fdc45e1b995",
+        "g": "8a96d67816d878c0",
+        "position": "top right",
+        "displayTime": "10",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "",
+        "x": 670,
+        "y": 1280,
+        "wires": []
+    },
+    {
+        "id": "3d6fadfc676a8dc6",
+        "type": "function",
+        "z": "715f7fdc45e1b995",
+        "g": "8a96d67816d878c0",
+        "name": "create notification",
+        "func": "let cs = msg.topic;\nlet answer = msg.payload;\nlet parts = cs.split('/');\nmsg.topic = `CS ${parts[1]}`;\nmsg.payload = `Evse ${answer.evse_code} is in status ${answer.status}`;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 450,
+        "y": 1280,
+        "wires": [
+            [
+                "280d7b29217fe1bd"
+            ]
+        ]
+    }
+]
