@@ -17,7 +17,7 @@ Nodes to configure:
 - - insert the secret file already present under /cs_simulator/secrets
 - - insert the link of the realtimedatabase: https://iotprojectfirebase-c5a62-default-rtdb.firebaseio.com/
 - sqlite node
-- -set a local path of sqlite database for example ~/Desktop/test.sqlite
+- - set a local path of sqlite database for example ~/Desktop/test.sqlite
 
 
 An example of cs simulator execution:
