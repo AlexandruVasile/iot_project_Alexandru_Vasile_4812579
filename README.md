@@ -24,4 +24,4 @@ An example of cs simulator execution:
 - node CS_simulator.js ./cs/cs_sqbf.json
 
 Connecting the mobile app to the same local network of the other components:
-.\adb.exe reverse tcp:1880 tcp:1880
+- .\adb.exe reverse tcp:1880 tcp:1880
