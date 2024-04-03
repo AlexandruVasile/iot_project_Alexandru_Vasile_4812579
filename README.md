@@ -1,8 +1,11 @@
 # iot_project_Alexandru_Vasile_4812579
 
+Demo:
+- https://youtu.be/gHaeA7A_p5w
+
 There are three main components:
-- csms in nodered
-- mobile app in android studio
+- CSMS in node-red
+- mobile app in AndroidStudio
 - CS simulators in JavaScript
 
 Modules to download in node-red, after you've imported in node-red flows.json file under the folder csms:
