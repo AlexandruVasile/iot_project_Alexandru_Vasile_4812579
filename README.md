@@ -30,3 +30,5 @@ How to start the system:
 - run the cs simulator scripts
 - click on "add tables" node in the CSMS tab of node-red
 - in each tab related to CS click on "add info about the cs in the db"
+
+In case you have problems with the configuration contact me at s4812579@studenti.unige.it
