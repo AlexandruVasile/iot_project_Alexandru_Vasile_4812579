@@ -25,3 +25,8 @@ An example of cs simulator execution:
 
 Connecting the mobile app to the same local network of the other components:
 - .\adb.exe reverse tcp:1880 tcp:1880
+
+How to start the system:
+- run the cs simulator scripts
+- click on "add tables" node in the CSMS tab of node-red
+- in each tab related to CS click on "add info about the cs in the db"
