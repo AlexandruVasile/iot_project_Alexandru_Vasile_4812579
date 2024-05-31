@@ -1,10 +1,11 @@
 # iot_project_Alexandru_Vasile_4812579
 
+```bash
 Demo:
 - https://youtu.be/gHaeA7A_p5w
 
 Git clone issue:
-In Windows, after you've cloned the repository there may be the following error "error: invalid path 'cs_simulator/aux.js'"
+In Windows, after you have cloned the repository there may be the following error "error: invalid path 'cs_simulator/aux.js'"
 To overcome it:
 - go inside the git directory
 - run: git config core.protectNTFS false
@@ -16,7 +17,7 @@ There are three main components:
 - mobile app in AndroidStudio
 - CS simulators in JavaScript
 
-Modules to download in node-red, after you've imported in node-red the file csms/flows.json:
+Modules to download in node-red, after you have imported in node-red the file csms/flows.json:
 cd ~/.node-red;
 npm install @gogovega/node-red-contrib-firebase-realtime-database;
 npm install node-red-dashboard;
@@ -25,7 +26,7 @@ npm install node-red-node-sqlite;
 npm install node-red-contrib-web-worldmap;
 
 Nodes to configure:
-+ "SET node" of firebase
++ SET node of firebase
     - insert the secret file already present under /cs_simulator/secrets
     - insert the link of the realtimedatabase: https://iotprojectfirebase-c5a62-default-rtdb.firebaseio.com/
 + sqlite node
