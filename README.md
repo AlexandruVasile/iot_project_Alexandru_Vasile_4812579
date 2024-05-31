@@ -7,8 +7,8 @@
 <h3>Git clone issue:</h3>
 In Windows, after you have cloned the repository there may be the error "error: invalid path 'cs_simulator/aux.js'".<br>
 To overcome it:
-- go inside the git directory
-- run: git config core.protectNTFS false
+- go inside the git directory<br>
+- run: git config core.protectNTFS false<br>
 - run: git restore --source=HEAD :/
 
 
