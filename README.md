@@ -37,7 +37,7 @@ sqlite node<br>
 <h3>An example of cs simulator execution</h3>
 - node CS_simulator.js ./cs/cs_sqbf.json
 
-<h3>Connecting the mobile app to the same local network of the other components</h3>
+<h3>Connecting the mobile app to the same local network of the other components by using adb executable under the folder platform-tools</h3>
 - .\adb.exe reverse tcp:1880 tcp:1880
 
 <h3>How to start the system</h3>
