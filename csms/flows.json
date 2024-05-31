@@ -325,7 +325,7 @@
     {
         "id": "95d25fdf8fbee1ca",
         "type": "sqlitedb",
-        "db": "/home/ale/Desktop/test.sqlite",
+        "db": "test.sqlite",
         "mode": "RWC"
     },
     {
