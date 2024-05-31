@@ -45,5 +45,5 @@ sqlite node<br>
 - click on "add tables" node in the CSMS tab of node-red<br>
 - in each tab related to CS click on "add info about the cs in the db"<br>
 - then use the mobile app<br>
-
+<br>
 In case you have problems with the configuration contact me at s4812579@studenti.unige.it
