@@ -342,7 +342,7 @@
     {
         "id": "595f35343a519298",
         "type": "sqlitedb",
-        "db": "C:\\Users\\39329\\Downloads\\test.sqlite",
+        "db": "test.sqlite",
         "mode": "RWC"
     },
     {
